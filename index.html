@@ -1,0 +1,24 @@
+ComicCraft - AI Comic Story Creator
+Story Prompt
+ 
+Character Name
+ 
+Setting
+ 
+Tone
+ 
+Art Style
+
+
+Generate Comic
+{% for panel in comic_panels %}
+Panel {{ panel.panel }}
+{{ panel.title }}
+
+Caption: {{ panel.caption }}
+
+Narration: {{ panel.narration }}
+
+{{ panel.dialogue }}
+
+{% endfor %}
